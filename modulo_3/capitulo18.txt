@@ -1,0 +1,48 @@
+
+----------introdução----------------------
+versionamento de software .
+    nem tudo será aprendido.
+
+diferença entre git e github.  
+
+repositório é onde guardamos coisas.
+os arquivos feitos  até agora estão salvos nos arquivos
+
+tentar aprimorar o site, vamos supor, mas não ficou legal como q volto?
+
+baixamos um aplicativo que gerencia a um gerenciamento de versionamento( o git)
+git é 100% gratuito.
+
+o git não resolve se algo acontece com meu computador.
+não conseguimos mostrar nossos sites também, por isso devemos fazer isso online.
+
+onde guardar, no git hub.
+
+ou seja o git hub é um lugar onde guardar.
+
+meu git é o repositório local, códigos.
+meu github é um repositório remoto.
+
+trabalho em equipe.
+-----------------------------------------------
+
+-------------instação--------------------------
+
+da pra instalar em qualquer sistema desde que seja 64 bits.
+https://git-scm.com
+
+depois pesquisamos por 'git hub desktop' no google
+https://desktop.github.com
+
+github desktop facilita nossa vida.
+
+na instalção do git usamos a opção de editor visual studio code padrão e não a versão insiders
+
+de um boot na maquina
+
+instala o github desktop
+
+se meu login é joaovianadoamaral, então meu url vai ser github.com/joaovianadoamaral
+
+usaremos o mesmo nome da pasta, identico, para criar o repositório.
+

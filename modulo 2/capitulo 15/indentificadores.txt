@@ -1,0 +1,59 @@
+conseguimos personalizar um conjunto de informações,
+como por exemplo a tag 'p', usando o seletor p{}
+mas as vezes não queremos que todos os 'p' fiquem iguais
+
+por isso criaremos seletores.
+
+em html id = em css #
+em html class = em css .
+
+
+usaremos entao no html
+
+<p id="nome"></p>
+
+em css
+
+p#nome{
+
+}
+ou apenas
+
+#nome{
+
+}
+
+dentro de um mesmo documento só se pode colocar um único
+id de mesmo nome .
+
+id="principal" em uma tag qualquer outra não pode ter .
+apesar de funcionar está errado e entrará em desuso
+
+apesar de o id ser único podemos ter várias class no mesmo
+documento
+
+não de nome em relação a forma( verde, centralizado,etc)
+e sim a funcao do que ele é
+
+podemos colocar mais de uma  classe na tag usando espaço
+
+por exemplo class="nome1 nome2"
+assim como podemos colocar uma class e um id em um element
+
+só que o id sobrepõe o class
+
+primeiro configuramos as configurações genéricas
+
+depois as especifícas.
+----------------------------
+uma div é um espaço qualquer
+
+que ocupa de ponta a ponta.
+
+
+pseudo class configuramos o estado
+
+por exemplo, podemos mudar a cor da div para amarelo.
+usando div:hover{
+    
+}

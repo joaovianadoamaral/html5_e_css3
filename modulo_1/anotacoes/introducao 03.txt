@@ -1,0 +1,54 @@
+o que é dominio e hospedagem?
+
+temos multiplos clientes,servidor e o DNS
+
+1)meu pc, DNS, meu pc e servidor/ exemplo para acessar o instagram por exemplo.
+
+2)caso eu crie um site por exemplo eu nao consigo mostrar pros meus amigos, nem dando meu ip, pois meu computador nao é um servidor. o dns nao vai ser acessado aos arquivos que eu criei.
+
+precisamos de um dominio que da acesso ao DNS e um servidor para hospedar esses documentos.
+
+dominio é um nome único, indentifica o seu site
+taxa anual para ter direito aquele dominio. algo próximo a 50 reais
+escolha o TLD
+
+hospedagem mais caro.
+algo próximo como um hotel quando viajamos.
+espaço, memória,recursos.
+muito mais cuidado ao escolher.
+
+url é usado para apontar para um unico lugar
+ex:
+www.github.com/gustavoguanabara
+
+parte 1 -> dominio  github.com
+
+github é o nome e o .com é o TLD,dominios
+
+parte 2 ->www é o sub dominio principal
+
+parte 3 -> tudo que vem depois da /é o caminho.
+
+separe o seguinte site entao :
+gustavoguanabara.github.io
+
+url é tudo a cima
+gustavoguanabara -> sub dominio
+github.io -> dominio
+io ->TLD
+nao temos nenhum caminho
+
+exemplo propio:
+www.youtube.com/watch?v=RFHSt1PCy0k&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=8
+url é tudo
+www é o sub dominio
+youtube.com é o dominio
+.com é o nosso TLD
+watch?v=RFHSt1PCy0k&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=8 é o caminho
+
+importante-----
+https:// é um protocolo
+---------------
+resumo : como olhar uma url
+nao tem resumo olha o passo a passo
+

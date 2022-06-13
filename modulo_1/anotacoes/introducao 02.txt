@@ -1,0 +1,83 @@
+historia da internet
+
+nasceu pra cumprir objetivos na guerra fria em 1949
+guerra de tecnologia.
+uniao sovietica lançou o sputnik
+
+eua criou o darpa, estudo de tecnologia para a guerra.
+fazer um grande backup, chamado arpanet 
+copia de segurança para não perder as informações.
+criou um protocolo ncp. de comunicacao entre computadores diferentes.
+
+ncp so fazia de dois em dois, bem ruim, e caso cresca os pontos nao seja impraticavel
+
+protocolos criados tcp/ip
+criado emergencialmente pois a arpanet cresceu muito
+
+parte militar, parte cientifica e rede comercial
+
+internet vem da arpanet com uma o objetivo de uma interconexão dessas subredes.
+
+a internet hoje vem da comunicacao entre continentes via cabo embaixo dagua.
+
+cliente e servidor.
+meu cliente pede um video do servidor youtube por exemplo.
+
+tcp quebra a imagem , e envia diferentes pacotes nosso computador que remonta a imagem
+
+como era a internet antigamente
+era um terminal
+e so tinha o teclado.
+
+tim berner-lee criou http://
+criou tambem o html </>
+www + navegador, nao foi ele que criou mas precisamos de algo compativel
+monte de servidores com diferentes funcoes.
+http e www sao sub redes.
+
+a internet mudou completamente para que tenhamos algo bunito e muito acessivel
+
+representação de dados.
+o computador é um burro muito rápido.
+funciona como sinais 0 e 1.
+ondas quadradas.
+binarios.
+bit.
+8 bits seguidos= 1 byte/
+utf-8 por exemplo representao a atraves de uma sequencia determinada de 1 byte podemos representar um a
+computacao trabalha com base 2 logo a cada 1024
+1024byte - kilo byte
+1024 kb - 1mega byte
+1024 mb - 1 giga byte
+1024 gb - 1 terabyte
+peta byte
+exa byte
+zeta byte 
+yota byte
+MB != Mb
+megabyte e mega bit
+armazenamento e transmissão
+
+cliente, instala o aparelho,telefone e acesse a internet
+o problema é que o computador possui ondas quadradas e o telefone possui ondas senoidais
+
+modulacao quadrada para senoidal
+demodulacao senoidal para quadrada
+
+ou seja o modem é um intermediario
+
+todo computador que se conecta a internet possui um número, e por esse numero podemos acessar o computador por exemplo o instagram
+
+www.iplocation.net, ele muda a cada vez que o modem é desligado.
+
+dns
+local na internet como se fosse uma agenda eletronica e informa o numero de ip do servidor
+que ai sim podemos acessar o servidor.
+
+os pacotes nem sempre pegam o caminho mais rapido
+-------------------------------------------------
+resumo:
+historia da internet
+dns (agenda eletronica dos sites)
+conversao de bits na base 2^10
+comunicacao com o modem (modulacao e demodulacao)

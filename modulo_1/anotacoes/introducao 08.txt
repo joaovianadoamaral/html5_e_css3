@@ -1,0 +1,78 @@
+com o comando de tag <code></code> daremos o mesmo espaco de formatacao para o que estives dentro 
+
+podemos envelopar a tag code com a tag <pre></pre> que vai nos dar a mesma identacao que estiver dentro de code
+quando usaremos citacoes ao inves das aspas usaremos  a tag <q>de quote</q>, ele coloca aspas automaticamente
+
+podemos colocar uma citacao do books.google.com
+
+a tag <q> nao possui quebra de linha por isso ela é simples 
+ja a tag <blockquote> é um bloco de citacao, por isso podemos sitar um paragrafo inteiro
+
+e dentro de blockquote podemos colocar o parametro <blockquote cite="link da citacao">
+isso mantem os direitos autorais e evita problemas
+
+usando a tag abbr podemos ao passar o mouse dentro de uma sigla, por exemplo HTML mostrar em um pop up o seu significado, Hyper Text Markup Language
+
+e temos tambem como colocar uma string da tras para frente usando <bdo dir="rtl">frase </bdo>
+rtl significa rigt to left, ou direita para a esquerda.
+-------------
+listas ol e ul
+
+temos uma lista ordenada automatica dentro de <ol></ol>
+e usaremos para a numeracao automatica a tag <li></li>
+
+dentro da tag ol podemos oferecer uma personalizacao atraves do parametro <ol type="1" start="4">
+isso daqui siginifica que é de tipo ordenado e comeca a contagem a partir de 4
+colocando o type="A" - a contagem é apartir do alfabeto, A,B,C,D,E,F,G,H,I...
+e colocando o type="a" faz em minusculo.
+colocando o type="I"- fica em numeros romanos
+
+para criar uma lista nao ordenada usaremos <ul></ul> e como na outra li para cada item
+por padrao é um circle na frente podemos alterar para uma caixa colocando type="square", na tag ul
+
+podemos colocar listas dentro de listas, basta colocar uma tag dentro de opcoes 
+
+temos tambem as listas de definicao que sao listas parecidas com dicionarios
+tem o seguinte formato
+<dl>
+        <dt>HTML</dt>	<--nome-->
+       	 <dd>Linguagem de marcacao de texto</dd>	<!--definicao-->
+        <dt>CSS</dt>
+        	<dd>Linguagem de marcacao para a criacao de design de um site</dd>
+        <dt>Javascript</dt>
+       	 <dd>Linguagem de programacao de interatividade de sites</dd>
+</dl>
+-------------
+todo hyperlink é construido através de uma ancora no código HTML
+google maior buscador do mundo e o youtube que também é do google está em segundo
+seo, para que o google nos ache, ja que nao cadastramos nosso site no google e sim o google que analisa se o nosso site é bom
+
+<body>
+    <h1>Usando links externos</h1>
+    <p>
+        voce pode acessar <a href="https://gustavoguanabara.github.io">o repositorio dele no github</a><!--tag a, de ancora(colocaremos a url completa)-->
+    </p>
+    <!--para que o link nao sobrescreva meu site usaremos os parametros apos o href, target="_blank" rel="external" atencao ao _ e sem espaco-->
+    <p>
+        voce tambem pode acessar o canal dele no youtube atraves do link <a href="https://youtube.com/cursoemvideo/">meu curso em video</a>
+    </p>
+</body>
+
+o parametro target="_blank" é responsavel por manter sua aba e abrir o link em uma aba nova.
+o parametro rel="external", significa que é um link externo e ambos os parametros sao recomendadissimos
+
+temos para outras paginas, rel="next" e rel ="prev"
+temos o rel="nofollow", que serve quando nao sabemos se é o site oficial para o mecanismo de busca
+
+fica zuado se para cada proxima pagina do nosso propio site abrirmos uma nova aba, por isso usaremos target="_self"
+
+quando estivermos dentro de uma subpasta usaremos ../ para voltar em uma pasta
+
+colocar # dentro de href="#" quando for um link vazio
+
+para baixar um arquivo pdf usaremos type="application/pdf"
+
+varia de arquivo para arquivo, por isso consultarmos o site da https://www.iana.org/assignments/media-types/media-types.xhtml
+
+entao temos para baixar um arquivo no link <a href="arquivonapasta" target="_self" download="nome_do_arquivo" type="tipo do arquivo no site anterior"
+

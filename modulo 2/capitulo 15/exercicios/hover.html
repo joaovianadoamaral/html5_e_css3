@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando hover</title>
+    <style>
+        div>p{
+            display:none;/*esconde o paragrafo filho*/
+        }
+        div:hover>p{
+            text-align:center;
+            background-color:red;
+            color:white;
+            width:80px;
+            height: 50px;
+        }
+        div:hover>p{
+            display:block;/*mostra o filho p quando se
+            passa o mouse em cima*/
+        }
+    </style>
+</head>
+<body>
+    <h1>trabalhando com hover</h1>
+    <p>clique no texto abaixo</p>
+    <div>
+        clique aqui
+        <p>Texto escondido</p>
+    </div>
+</body>
+</html>

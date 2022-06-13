@@ -1,0 +1,6 @@
+o ideal é não deixar os paragrafos muito grandes  quando a tela está muito grande
+
+quando a tela muito pequena não deixar rolagem lateral,
+texto, imagem e videos vazando
+
+acima de 1200 px de largura cria-se um bloco que seja adaptavel.

@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url('../midia/fontes/idroid.otf') format('opentype');
+    font-weigth:normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root{
+    /*paleta de cores*/
+    --cor00:#c5ebd6;
+    --cor01:#83e1ad;
+    --cor02:#3ddc84;
+    --cor03:#2fa866;
+    --cor04:#1a5c37;
+    --cor05:#063d1e;
+    /*familia de fontes*/
+    --fonte-padrao:arial,verdana,helvica,sans-serif;
+    --fonte-destaque:'Bebas Neue',cursive;
+    --fonte-androide: 'idroid',cursive;
+}
+*{/*seleciona todos os elementos h1... p... div...a...etc*/
+    
+    /*isso nos mostra que algumas configurações ficavam atrapalhadas
+    por causa da margin em cima e embaixo de certos marcações*/
+    padding:0px;
+    margin:0px;
+
+}
+body{
+    background-color:var(--cor00);
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+}
+
+header{
+    background-color: var(--cor04);
+}
+header>h1{
+    color : white;
+    font-family: var(--fonte-destaque);
+}
+header>p{
+    color:white;
+}
+
+nav{
+    background-color: var(--cor05);
+}
+
+
+main{
+    background-color: white;
+
+}
+main h1{
+    color: var(--cor05);
+    font-family: var(--fonte-androide);
+}
+main h2{
+    font-family: var(--fonte-androide);
+}
+
+footer{
+    background-color:var(--cor05);
+}
+
+
+
+/*
+variaveis em css
+
+toda váriavel começa com --nome: o que vai receber;
+
+para usar como parametro em por ex:
+color:var(--nome);
+
+podemos colocar cores da nossa paleta de cores em variaveis.
+
+#c5ebd6  mais claro
+#83e1ad
+#3ddc84
+#2fa866
+#1a5c37
+#063d1e  mais escuro
+
+podemos configurar fontes tambem, usando váriaveis. ex:
+--font-principal: 'arial, helvica, sans-serif';
+
+
+:root{
+    todas as configurações aqui servem para o documento inteiro
+}
+
+
+
+*/
+
+
+
+
+
+
+
+

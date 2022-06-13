@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audios</title>
+</head>
+<body>
+    <h1>reproduzindo audios </h1>
+    <!--o parametro autoplay siginifica que vai tocar automaticamente assim que iniciar o site.-->
+    <audio src="Christmas Chores - RKVC.mp3" controls > </audio>
+    <!--alguns navegadores não aceitam alguns tipos de audio-->
+    <!--para gerar maiores compatibilidades usaremos-->
+    <audio preload="metadata" controls loop>
+        <!--a ordem importa, vai tentar carregar o que estiver primeiro-->
+        <source src ="Christmas Chores - RKVC.mp3" type="audio/mpeg"> <!--mpeg é o arquivo mp3-->
+        <source src ="Christmas Chores - RKVC.ogg" type="audio/ogg">
+        <source src ="Christmas Chores - RKVC.wav" type="audio/wav">
+        <!--tente evitar arquivos wav-->
+        <!--criaremos um paragrafo caso não carregue nenhum audio-->
+        <p>
+            infelizmente seu navegador não consegue reproduzir áudio. clique
+            <a href="Christmas Chores - RKVC.mp3">aqui</a> 
+            para baixar o áudio
+        </p>
+    </audio>
+</body>
+</html>

@@ -1,0 +1,180 @@
+psicologia das cores:
+
+as cores são de suma importãcia para a vida, e consequentemente nosso site.
+a casa , o carro, e muitas coisas são importantes pintadas por cores.
+
+não precisamos ser rigidos, mas temos um parãmetro.
+comprar um produto ou não está relacionado intrisicamente com as cores.
+
+dois sites com a mesma semantica, com cores diferentes, um vai ter mais acesso
+do que o outro.
+
+cores são não intuitivas, irracional.
+
+facebook, twitter, del, intel, empresas de tecnologia: azul, de tons diferentes.
+
+tem motivo, o azul tem ligação com competencia, sabedoria, segurança.
+cor mais aceita do mundo, menor taxa de rejeição.
+
+questão de segurança.
+
+evitar vermelho, por exemplo.
+
+preto e branco, ja ta acostumado com isso, portanto.
+
+
+fundo preto com letra branca gera muito cansaço visual, logo so use com pouco
+conteudo
+
+coisas com muito conteudo use o fundo branco com a letra preta.
+
+---------------
+aulão sobre o tema
+
+a cor é uma linguagem individual, e reagimos as condições físicos e as 
+influencias culturais.
+
+circulo cromatico.
+cores possuem temperaturas, algumas mais quentes, outras mais frias.
+
+esquerda - fria
+    calmantes
+    tédio
+    Distancia
+    calma 
+    conforto
+    lentidão
+    tristeza
+
+    ex: hospitais(acalmar, imagina ser instigado a ficar agitado)
+    época triste de picasso (artes em azul)
+
+
+
+direita - quente 
+    vitalidade
+    energia
+    alegria
+    exitação
+    irritação
+    movimento
+    abre o apetite
+
+    ex: fast foods, propaganda de praias, filmes de crianças, filmes de ação,
+    coisas alegres.
+
+
+significado das cores(depende da forma física, e cultural)
+
+não é uma forma fixa mas segue um parametro geral.
+ou seja não é uma definição absoluta.
+
+vermelho
+    emoção,energia, vigor, calor, alegria ,coragem, poderio, glória, proibição
+    violencia, velocidade, fogo, sedução, intensidade, erotismo
+
+    cor do elemento fogo
+
+laranja
+    segunda cor mais viva depois do vermelho
+
+    prazer, alegria, competição, fertilidade, senso de humor, por do sol,
+    estimulante, ofensa, agressão, desejo, luxo, vibração, diversão, saúde.
+
+amarelo
+    juventude, inveja, adolecencia, ciumes, verão, saúde, covardia, perigo, 
+    inspiração, alerta, aviso, divertimento
+
+    cor da luz
+
+verde
+    natureza, riqueza, aguas claras, pessoas jovens, felicidade, vida, crescimento, relaxamento, segurança, suavidade
+
+    verde significa natureza
+
+azul
+    segurança, tecnologia, frio , gelo, estabilidade, poder, limpeza, 
+    credibilidade, verdade
+
+    padrão em impresas de tecnologia.
+
+violeta
+    miséria, penitencia, luxo , nobreza, magia, sexualidade, magia
+    tecnologia, imoralidade, penitencia, enterro, furto, sedução
+
+
+
+
+-------------------
+circulo cromatico
+
+cores primarias -> 
+    amarelo, vermelho  e azul
+
+cores secundarias -> 
+    laranja(amarelo + vermelho), violeta/roxo(azul + vermelho)  e 
+    o verde (azul + amarelo)
+
+da junção de primario + secundario , surge cores terciarias.(6)
+
+
+---
+formas harmonicas de relacionar cores
+
+cores complementares->
+    maior contraste entre si.
+    do lado oposto do circulo cromatico
+    cor primaria, possui uma secundaria como complementar
+    a junção de duas cores complementares surge cinza.
+
+cores análogas ->
+     cores vizinhas entre si (3 cores diferentes)
+     criam um baixo contraste mas uma boa harmonia, quando juntas no desing
+
+cores analogas + um complementar->
+    cria um grande contraste em relação as tres cores analogas.
+
+cores analogas relacionadas ->
+    duas analogas (coladas, consecutivas) + salto da terceira e escolhemos a 
+    quarta
+
+    .. . / . ..
+
+cores intercaladas 
+    um tipo menos usado de harmonia, ja que as vezes não cai tão bem.
+    pega uma cor e pula a vizinha,( 3 cores no total)
+
+cores triadicas
+    bastante ultilizada e que garante uma grande riqueza de cores.
+    tres pontos equidistantes no circulo cromatico (triangulo equliatero)
+    sempre possui um ótimo contraste.
+    usaremos como base as cores primarias, elas forma um triangulo equliatero
+        entre si
+
+
+
+geralmente temos uma paleta de cores, entre:
+
+3,4 e 5 cores.
+preto e branco não contam.
+-----------------------------------
+
+color.adobe.com
+é gratuito.
+podemos construir uma paleta de cores.
+descobrir cores/paletas tendencia/extrair de uma logo. 
+
+colors e palleton
+
+escolher cor de uma foto tira print e vai na adobe.
+--------------
+como criar degrade.
+
+usaremos o parametro 
+background-image: linear-gradient(direção final,cores)
+
+usaremos uma paleta de cores feita no site da adobe.
+cores em hexadecimal.
+direção(to top,bottom,left,right).
+
+margin: auto; centraliza a palavra.

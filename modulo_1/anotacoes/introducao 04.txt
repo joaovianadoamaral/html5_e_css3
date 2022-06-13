@@ -1,0 +1,102 @@
+como funciona a html e as css
+nao se programa em html e css
+eu desenvolvo em html
+
+html->
+hypertext(texto com link)
+Markup(marcas)
+Language(linguagem)
+linguagem de marcas com hypertexto
+
+css ->
+folhas de estilo em cascata
+cascading
+style
+sheets
+
+html é o conteudo 
+texto 
+imagem 
+video 
+tabelas
+
+css é o desing
+cores 
+sombras
+tamanho 
+posicionamento
+
+js
+interações
+
+aprender as tres em conjuntos.
+
+exemplo de titulo
+<h1> abertura de tela
+</h1>nao pode ter espaco dentro da marca 
+
+<h1>titulo</h1>
+
+paragrafos temos 
+<p> paragrafo aqui </p>
+
+repare que temos abertura e fechamento de tag
+
+existem marcas que nao tem fechamento ex:
+
+<img src="foto.png" alt="exemplo de foto">
+
+src e alt sao parametros. aqui temos, caso nao mostre a imagem src coloca na tela "exemplo de foto"
+dentro das aspas sao valores
+
+estilo em css
+h1//seletor
+{
+   font-family : arial;//isso aqui é uma declaracao
+   font-size : 20 pt;
+   color : blue;
+   //meu titulo deixa de ser times(padrao) e passa ser arial, 20 pontos de pixel e de cor azul
+   //color é a propiedade e blue é o valor
+}
+
+estrutura básica de documento HTML
+
+<!DOCTYPE html> //nos diz que esse documento é do tipo html 5
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">//compativel com caracteres em portugues
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		//linha de cima fala que o site vai aparecer em tela cheia e sem zoom
+		<title>mostra o nome na aba</title>
+		//configuracoes
+	</head>
+	
+	<body>
+		
+		//conteudo
+	</body>
+</html>
+
+//servidor nos envia uma copia e o navegador 'compila' esse documento para efeito visual.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

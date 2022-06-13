@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*por padrao todo seletor é genérico*/
+body{
+    background-color: rgb(205,255,203);
+}
+
+h1{
+    color: rgb(4,109,0);
+}
+
+h1#principal{
+    text-align: center;
+    color: white;
+    background-color:rgb(4,109,0);
+}
+
+h2{
+    color: rgb(73,109,71);
+}
+
+.basico{
+    color : rgb(25, 206, 25);
+    font-weight: bold;
+}
+.intermediario{
+    color: rgb(190, 153, 30)
+}
+.avancado{
+    color: red;
+}

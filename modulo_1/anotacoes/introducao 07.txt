@@ -1,0 +1,73 @@
+--------
+hierarquias de titulo 
+ <h1>primeiro</h1>
+ <h2>segundo tittulo</h2>
+ <h3>terceito titulo</h3>
+ <h4>quarto titulo</h4>
+ <h5>quinto titulo</h5>
+ <h6>sexto titulo</h6>
+ <!-- so vai até aqui os titulo -->
+ 
+ h1 titulo principal , o que chama a atencao 
+ - dentro deles podemos ter outros assuntos
+ 
+ por exemplos em em indicies de livros temos subniveis
+ 
+ nao podemos pular do nivel para o nivel 3
+ temos uma ordem.
+ 
+ icons sempre colocados na head
+ 
+ lorem dentro de um paragrafo é um gerador de paragrafo aleatorio
+ 
+ lembre-se o tamanho nao é o mais importante, lembre html é o conteúdo, ou seja iremos tratar apenas de niveis.
+ -----------------
+ semantica: tem mais valor o significado doq a forma.
+ 
+ tag adress, para colocar um endereço
+ 
+ colocar o fundo azula por exemplo do corpo, usaremos a marca <style>, dentro dela o body{
+ } e dentro do body usaremos background-color: blue;
+ 
+ 
+duas maneiras de criar negrito, usando a tag b  de forma nao semantica
+e a tag strong de forma strong
+
+ambos dentro do paragrafo p
+
+selecione o texto q vai usar, ctrl shift p, wrap with abbreviation
+
+duas maneiras de criar italico, usando a tag i  de forma nao semantica
+e a tag <em> de forma semantica
+
+usaremos o strong para o negrito e em para italico
+
+usaremos a tag <mark> termo </mark> , para marca o texto como um marca texto
+
+para mudar a cor do termo usaremos css dentro da tag mark -> <mark style="background-color: black;">, isso muda a cor para preto do marcado de texto
+
+porem o proximo mark nao herda essa cor colocada individual naquele mark em especifico.
+
+por isso para alterar todos os marks usaremos 
+
+no head 
+tag <style>
+seletor mark{}
+dentro do seletor escolhemos a cor universal do seletor mark
+
+temos as tags small e big, para alterar o tamanho do texto, porem a tag big ficou obsoleta, observe
+
+tags para formar sublinhados temos a tag <ins>(semantico) e a tag <u>(nao semantico)
+
+para coisas sobrescritas ex x²³, o 23 é sobrescito, usaremos a tag <sup>
+e subscrito usaremos <sub>
+
+
+criaremos sempre o programa principal com nome index.html
+---------------
+resumao :
+h1,h2 ...
+strong e em
+mark
+ins
+sup e sub

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com html5</title>
+</head>
+<body>
+    <h1>videos em hospedagem própia</h1>
+    
+    <video src="meu_video.webm" width="250px" controls></video>
+    <!--esta é a forma simples de colocar um video, caso queiramos mais
+    opcoes colocaremos varios source entre as tags video-->
+    <!--organizaremos na ordem de tamanho dos videos-->
+    <video controls width="250">
+        <source src="meu_video.webm" type="video/webm">
+        <source src="pexels-beytlik-9959514.mp4" type="video/mp4">
+        <!--detalhe que temos os tipos de videos mv4, ogv tambem
+        type de mv4 é mp4, e ogv é ogg-->
+        <p>seu navegador não é compativel com estes arquivos de Videos
+            clique <a href="meu_video.webm">aqui </a> para baixar o video
+        </p>
+    </video>
+    <h1>inserindo videos de hospegem externa(youtube) </h1>
+    <p>clique em compartilhar, incorporar e copie e cole o código</p>
+    <p>videos em m4v no youtube é o mais recomendavel</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Jwy0fy7bWdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

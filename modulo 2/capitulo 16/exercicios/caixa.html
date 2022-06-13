@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Caixas</title>
+    <style>
+        h1{
+            background-color: aqua;
+            padding:5px 5px 5px 5px;/*top right bottom left*/
+
+            width:150px;
+            height:110px;
+            
+            text-align:center;
+            
+            border:15px groove rgb(168, 12, 142);
+            /*
+            border-style: groove; sem esse o resto não funcionou, da borda
+            border-color:rgb(168, 12, 142);
+            border-width: 15px;
+            */
+
+            /*margin-left:250px;*//*centralizei o título, isso é errado*/
+            /*top right bottom left,margin tambem usa esse short-hand*/
+            margin:15px auto;/*centraliza horizontalmente uma caixa*/
+            margin-bottom:30px;
+        }
+        a{
+            background-color: aqua;
+            padding:5px;/*top right bottom left, e se as 4 for iguais, basta 
+            colocar uma vez só, dois valores ele espelha cima baixo, direita
+            esquerda
+            */
+
+            width:150px;
+            height:110px;
+            text-align:center;
+            
+            border-style: groove;/*sem esse o resto não funcionou, da borda*/
+            border-color:rgb(168, 12, 142);
+            border-width: 15px;
+
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box level</h1>
+    <p>
+        Paragrafos tambem são exemplos de box-level,
+        mas os <a href="#">links são exemplos de inline
+        level</a> Vamos ver como tudo funciona.
+    </p>
+</body>
+</html>

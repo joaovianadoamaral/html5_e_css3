@@ -1,0 +1,60 @@
+formatos de midia para seu site
+
+temos que tomar cuidado para não deixar pesado e pagar por dados extras.
+
+pexels, imagens e videos para baixar sem imagem autoral
+
+não precisa baixar a qualidade maior.
+
+    compatibilidade
+
+os formatos mp4 , m4v ,webm e ogv. 
+
+são os mais compativeis.
+
+dica valiosa. 
+programa hand brake , é de graça.
+converte videos.
+
+mp4 e webm são os mais comuns
+
+handbreak diminuiu o arquivo pela metade do tamanho mp4-> webm
+
+assim como audio temos os parametros : controls, autoplay, loop e width=""
+-------------------------------
+videos em hospedagem própia.
+
+videos ganharam muito espaço, ter cuidado
+
+temos dentro da tag <video></video> os parametros :
+    src="video.extensao"    width ="quantidadade de pixels ex : 550px"
+    controls
+    atenção ao usar width não estamos alterando o tamanho em mB e sim o tamanho
+    para melhor vizualização
+
+para hospedar diferentes opções de videos usaremos vários sources dentro da tag 
+video. temos os formatos ja mostrados acima
+
+o type deles são 
+mp4 e m4v -> video/mp4
+webm -> video/webm
+ogv -> video/ogg
+
+fazendo deste jeito pode causar problemas para o cliente, pois com videos 
+de hospedagem própia podemos fazer uma conta básica
+(tamanho do video * qntd de clientes esperados) / 1024 = resultado em gigas de 
+trafego de dados.
+
+----------------------
+videos em hospedagem externa 
+
+solução para o problema anterior(pagar caro em videos de hospedagem própia) 
+
+adicionando videos de serviço de vídeo, como o youtube.
+
+clicar em compartilhar, incorporar e copia e cola o código.
+
+além do site estar no site, estar no youtube. gera engajamento.
+serviços para assinantes, usaremos o vimeo. assim o video é  possível limitar
+vímeo tem limite pela quantidade de videos para subir, mas não para trafego
+

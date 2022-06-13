@@ -1,0 +1,58 @@
+quando trabalhamos com imagem tendemos a pegar a melhor imagem possivel ja que o nosso site vai ficar pesado, lento.
+
+sites lentos sao bem prejudicados pelo google.
+
+trabalhar com imagens dinamicas
+
+criar a tag picture
+
+dentro da tag picture
+
+temos a tag imag normal
+<img src="imagem.png" alt="descricao da imagem">
+
+
+mas detalhe dentro da tag img colocamos a maior imagem possivel
+
+e logo acima criaremos uma <source>, ele nao tem '</source>'
+
+usaremos os parametros 
+
+media="(max-widht:50 pixels a mais que a segunda maior imagem )"  srcset="qual imagem vai abrir se tiver até essa quantidade de pixels"  type="imagem/tipo, no exemplo eu usei png"
+
+------------
+audios tambem tem direitos autorais
+
+caso usar atribuição necessária, temos que colocar as linhas da musica tábem.
+
+dentro do youtube -> youtube studio -> blibioteca de audio
+
+podemos usar esse mp3 então
+
+arquivos de máxima qualidade deixa muito pesado.
+seu site pode ser afetado.
+o tamanho do áudio também 
+
+
+para reproduzir audios usaremos a tag 
+<audio src"audio.extensao" controls autoplay> </audio>
+
+controls é para aparecer as opcões de interação com o áudio. 
+autoplay é para tocar sozinho.
+
+tente evitar arquivos wav, mesmo que seje compativel.
+
+temos .mpeg para mp3
+
+a ordem importa, de cima para baixo, ele vai carregar primeiro.
+
+criaremos um paragrafo para caso o audio não seje compativel com o navegador, 
+com uma tag <a> para baixar o áudio.
+
+Dentro da tag audio temos o parametro preload="", que possui 
+auto- só carrega o site inteiro depois de carregar o site, isso pode ser muito 
+    prejudicial
+metadata- carrega parte das informações
+none- não carrega nada, até que o usuario clique nos controles
+
+além do parametro preload temos tambem: controls autoplay e loop

@@ -1,0 +1,82 @@
+estilos em css inline
+
+em primeiro caso iremos alterar o estilo na mesma linha
+
+folhas em estilo em cascata
+
+coisas erradas:
+
+dentro do corpo (<body></body>)
+usar os parametros bgcolor:"cor" é errado
+
+colocar dentro do paragrafo uma tag fonte com a cor
+especifica daquela frase, por exemplo um oi 
+vermelho é errado tambem.
+
+
+colocar coisas de estilo com o html polui nosso código
+
+
+para mudar o estilo local de cada tag usaremos o parametro 
+
+style="" é um parametro.
+
+style="alteraçao1 ; alteraçao2;.....;alteracaoN;"
+novas alteracoes:
+
+mudar cor de fundo 
+    background-color: cor;
+
+mudar cor da letra
+    color: cor;
+
+alinhamento do texto
+    text-align : justify;
+
+--------------
+estilos  em css internos
+
+criaremos uma tag style dentro de head e criaremos os seletores com o mesmo
+nome das tags, exmp:
+
+para mudanças em <body></body>
+
+usaremos dentro de style o seletr 
+body{
+    mudança;
+}
+
+tecnica útil para uma unica pagina, mas como em mais de uma pagina teriamos
+que alterar uma por uma, o que acaba nos gerando um pouco desvantajoso ainda.
+
+----------------------
+style para várias paginas.
+retira o style do código html, e cria um novo arquivo css, ex: style.css
+
+colocaremos regras no topo do arquivo, por exp @charset UTF-8;
+para não gerar problemas de acentuação.
+
+colocaremos então um link de css no head de cada documento.
+
+<link rel="stylesheet" href="style.css">
+
+podemos inclusive "somar" links de estilos
+
+que só algumas paginas tem e outras não, criando assim dois ou mais links de css
+-----------------------
+
+podemos misturar os estilos.
+
+de preferencia para os estilos na orde:
+    arquivo /link
+    tag style + seletores
+    inline
+
+o inline tem poder maior, a tag style local tem poder em seguida e por ultimo 
+o arquivo.
+
+mas o arquivo é o mais versatio
+
+style só use para estilos pequenos e o arquivo para coisas grande/ muitas páginas
+
+.

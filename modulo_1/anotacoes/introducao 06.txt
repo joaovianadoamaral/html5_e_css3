@@ -1,0 +1,52 @@
+nao é certo pegar imagens da internet e usar como se fosse minhas.
+
+vou em ferramentas do google e  filtro com marcadas para reutilização com modificação
+
+podemos usar sites para isso tambem
+unsplash com busca em ingles.
+pexels tambem
+
+instalar gimp.
+usaremos jpg e png.
+depende doq queremos
+jpeg, nao salva todos os pontos, ou seja compacta a imagem
+png, permite transparencia e animacao
+
+jpg geralmente é o melhor.
+
+so vamos usar imagens grande
+e no usaremos o filtro transparente para usarmos o png
+
+1500 de largura no maximo
+redimensionar imagem 
+tab
+
+resolucao colocar em 72, 50
+
+imagem geralmente para aparecer em um site é em torno de 650
+
+exportar com 70%
+
+nao podemos deixar nosso site lento com arquivos maiores. nao aparecem no algoritimo do google com facilidade.
+
+temos icones de favoritos na aba.
+
+icon archieve
+procuraremos oq eu quiser
+
+baixaremos .ico
+
+podemos desenhar o ico a mao em favicon.cc
+
+favicon.io
+texto, imagem e emoji para icon.
+
+usamos o atalho link : favicon, para inserir o icon
+
+----------------------------
+
+
+resumo:
+diminuir o espaco da imagem 
+jpg e png
+criar um icon

@@ -1,0 +1,31 @@
+colocava-se muitas divs e com ids(menu,cabeçalho,conteudo,etc)
+
+podemos montar um site de forma semantica.
+
+dentro do body
+
+colocaremos 
+o conteudo principal(main); 
+cabeçalho(header);
+rodapé(footer).
+
+todos são divs com nomes, funcionam da mesma forma, mas agrupam
+informaçoes de forma semantica.
+
+article- É mais comumente usado para conter informações que podem ser distribuídas independentemente do restante do site ou aplicativo em que aparecem.
+
+nav é para menu
+
+section
+
+aside
+
+box-shadow: 1px 1px 1px black; horizontal vertical espalhamento 
+
+
+o dev tools me ajuda a criar sombras.
+
+------------
+vertices arredondados
+
+border-radius: ; arredondamento de bordas da caixa;

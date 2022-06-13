@@ -1,0 +1,75 @@
+---------------------------------
+box model.
+
+tudo exibido em html é colocado dentro de caixas.
+
+podemos colocar coisas dentro de outras coisas
+(aninhamento)
+
+uma caixa não precisa ser exatamente do tamanho.
+uma caixa tem um tamanho.
+
+height: altura
+width: largura
+medidas atráves do conteudo.
+
+border-uma borda fica grudada no pontilhado do conteudo.
+por padrão. 
+
+os espaço extra da borda, se chama padding.
+
+padding- acochoamento, preenchimento da borda para dentro
+
+margin-preenchimento para fora 
+
+outline- contorno entre a borda e a margin, mas dentro da margin.
+
+
+caixas box-level e inline-level
+
+    box-level: pula para uma linha nova, ocupa a largura
+    da tela inteira. e pula para próxima linha
+    <div></div>
+
+    inline-level: vai pular para o lado e desenha o novo
+    contéudo, após terminar o conteúdo ele continua na 
+    mesma linha . 
+    <span></span>
+
+-------
+user agent é sempre o meu navegador
+ele sempre faz configurações de css padrão para as 
+caixas/tags
+
+display: block; é o box-level
+display: inline-block; é o inline-level
+
+ao olhar  se tiver tracinho é que não tem aquela config
+(chrome)
+
+
+border-width: largura da borda
+border-style: estilo da borda
+    dashade-tracejado.
+    dotted -pontilhado.
+    double - linha dupla.
+    groove- margin meio tri dimensional
+    solid - 
+border-color: cor da borda
+
+
+ordem de indicar o tamanho, vai começar em cima, e no 
+sentido horário(direita,baixo,esquerda), colocaremos os tamanhos.
+
+isso vai ajudar a configurar o short-hand.
+
+
+o h1 é por padrão, um block. podemos mudar para inline usando:
+h1{
+    display: inline;
+}
+
+o a é por padrão, um inline. podemos mudar para block usando:
+a{
+    display: block;
+}

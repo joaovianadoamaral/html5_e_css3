@@ -1,0 +1,249 @@
+estudo basico da tipografia:
+
+o termo tipografia surgiu no seculo 15, quando surgiu a 
+imprensa.
+
+idade média, europa.
+moge copista. conhecidos como amonoense.
+
+
+copiar livros, profissão.
+
+as vezes livros muitos grandes, demoravam meses para
+estarem prontos. conhecidos
+
+johannes gutenberg. alemão
+pai da imprensa, mas os chineses ja tinham feito isso 
+    antes 
+inventor da prensa mecanica de tipos moveis.
+
+vária pessinhas colocadas em ordens que formavam palavras.
+colocava tintas. faziam duas páginas, e colocava para
+secar.
+
+as peçinhas podiam ser de metal, cortiça, madeira,etc.
+
+surgem então, a tipografia, para a facilidade das letras.
+
+estudo de como vou escrever texto no papel.
+
+forma de escrever transmite emoção támbem.
+
+
+juntaremos boas imagens, cores e boas letras.(design)
+
+um tipo é cada desenho das letras.
+
+medidas.
+
+muito importante a letra x. 
+construimos todas as letras minusculas apartir dela.
+altura x. 
+
+altura das maiusculas.
+
+ascendente. o que vazou para cima.
+
+descendentes. o que vazou para baixo.
+
+altura do corpo. é tudo.
+
+pezinho prolongado, pequeno tracinho, chama-se serifa.
+facilita-se a leitura da palavra
+
+hastes, retangulo +- na vertical
+
+filete, uma haste deitada.
+
+arco, uma curvinha
+
+vertice, pontinha vista no A ou no V
+
+os pés, são onde existe as serifas.
+
+dois arcos juntos formam uma barriga.
+
+olho é um buraquinho dentro de uma letra.
+
+cauda, parte de baixo q fica para fora.
+
+todas as letras são glifos nas fontes.
+
+todo um conjunto de glifos, formam uma fonte.
+
+existem familias tipograficas, geralmente normal e 
+negrito. o
+
+times new romam é serifada.
+
+fontes sem serifas são sans-serif(sem serifa em frances)
+
+a recomendação, para textos  longos, é fontes não serifadas
+
+texto grande é fundo branco letra preta.
+
+fontes monoespaçadas. todas as letras possuem a mesma 
+largura.
+
+fontes handwriting, simula a caligrafia humana.
+
+display, comemorátiva, não se preoucupa em obedecer 
+regras.
+
+
+-------------------
+tamanhos de fonte. 
+
+as medidas absolutas e relativas.
+
+absolutas, a apresentação pode mudar de tela pra tela.
+
+    cm- centimetro 
+    mm- milimetro
+    in- polegada
+    px- pixel
+    pt- ponto , não se recomenda usar em tela, tipografia
+    pc- paica , não se recomenda usar em tela, tipografia
+
+
+relativas
+    em- altura do M da fonte
+    ex- altura do x da fonte
+    vw- largura da view port, % de cada tela.
+    rem - tipo o em só que do body
+    vh- altura da view port
+    %
+
+recomendação de uso da w3c, é apenas o EM e o PX
+não pode ter espaço entre a medida e o número.
+
+geralmente 16px é o tamanho normal da fonte.
+geralmente 1em=16px
+
+pt- de pontos, vem dos editores de texto, como word
+quando mudamos o tamanho, alteramos em pt.
+td bem pq vai imprimir mas não é usado em sites.
+
+----------------
+peso, estilo e shorthand font
+
+peso é a letra mais gordinha
+
+As normais geralmente só tem a normal e negrito.
+
+ele usou a works sans, mas ela não tem no computador de 
+niguem.
+
+logo ele importou de uma url usando 
+
+@import url(link);
+
+font-weight: ;
+/*temos os pesos: lighter normal bold bolder*/
+/* ou o uso númerico que vai de 100 a 900, de 100 em 100*/
+
+font-style: italic;
+/* uso em normal, e italico*/
+
+text-decoration: underline;
+/*o texto fica sublinhado*/
+
+font condensa todas as informações.
+a ordem é:
+
+font: font-style,font-weight, font-size, font-family;
+
+é muito importante a ordem.
+
+isso diminui o código
+
+isso é um shorthand.
+--------------------
+
+repositório gratuito de fontes, usando o fonts.google.net
+
+ao escolher a fonte vamos em select this style.
+
+vemos as variações de peso, etc.
+
+colocaremos em import, não em link.
+
+colocaremos a regra nas primeiras linhas.
+
+não exagere na quantidade de fontes,mesma regra para as 
+cores, de 3 a 5 fontes no site.
+
+apesar de existe o google fonts, as vezes o cliente quer 
+uma fonte que ele comprou, baixou , etc. e ela não existe 
+no google fontes.
+
+então temos um arquivo na mesma pasta, usaremos tanto
+ttf e otf
+
+colocaremos o arquivo dentro da regra
+
+@font-face{
+
+    font-family: love;  /*agora temos uma fonte de
+    nome love*/
+    src: url('arquivo') format(formato),
+         url('arquivo2') format(formato2);
+    /*
+        tipos de format();
+        -opentype(otf)
+        -truetype(ttf)
+        -embedded-opentype
+        -truetype-aat(Apple advanced  tipografy)
+        -svg
+    */
+
+}
+
+crie pastas para criar fontes.
+
+-----------------------------
+indentificando fontes dentro de um site
+
+textos dentro de imagens não da
+
+plugin do google chrome, que me ajuda a criar.
+
+fonts ninja, serviço pago, mas da pra usar para capturar fontes.
+-----------------------------------
+indentificando fontes dentro de uma imagem
+
+resultados não 100% precisos.
+
+whatfontis.com(melhor solução)
+fontsquirell.com
+myfont.com
+
+------------------------
+alinhamento de texto com css
+
+antigamente tinhamos uma tag center, mas ela ficou,
+obsoleta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+

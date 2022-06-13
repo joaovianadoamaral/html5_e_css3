@@ -1,0 +1,61 @@
+front-end e back-end
+
+desenvolvedor front end, são as tecnoligas que rodam do lado do client
+html,js,css
+
+desenvolvedor back end, server-side.
+phyton
+java
+php
+até mesmo o js
+c#
+
+cliente requisita para o servidor,servidor requisita um banco de dados, banco de dados informa o que esta disponivel, atraves de um html,css e js usando o php por exemplo.
+
+um desenvolvedor full stack é aquele que possui conhecimento tanto de back quanto de front end
+
+instalações que precisamos.
+vs code 
+chrome 
+algumas mudancas bobas de configuracao 
+
+atalho para criacao do corpo html >> !+enter
+
+usamos <br>, break row, ou quebra de linha 
+
+para representar caracteres especiais usamos as marcas 
+&lt; para < 'less than'
+&gt; para > 'greater than'
+
+profissionais nao colocam varios <br> em sequencia,cagada feia.
+
+comentario em html <! -- olá -->
+
+mais simbolos especiais
+&reg;//marca registrada
+&copy;//copyright
+&trade;//marca registrada em ingles
+&reg;
+&euro;
+&real;
+&pound;
+&yen;
+&cent;
+&dollar;
+&Delta;
+<!-- o d tem que ser maiuculo, para mostrar o delta que conhecemos-->
+        &uarr;<!--seta para cima,caso queiramos para a esquerda basta substituir o u por l de left, d de down e r de right-->
+        
+para adicionar emojis, vamos na emojipedia e copiamos o codigo do emoji.
+por exemplo o de oculo de sol temos 😎 U+1F60E
+
+o emoji esta em hexadecimal e representamos assim &#x
+entao temos &#x1f60e;
+
+
+
+-----------------
+resumo:
+comentario 
+palavras especiais com &palavra;
+hexadecimal &#x numero;
