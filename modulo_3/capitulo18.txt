@@ -46,3 +46,10 @@ se meu login é joaovianadoamaral, então meu url vai ser github.com/joaovianado
 
 usaremos o mesmo nome da pasta, identico, para criar o repositório.
 
+manter o repositório atualizado.
+use comits sempre que for fazer modificações.
+
+para apagar repositorio vá no aplicativo do github desktop.
+e em repositorios, apague o repositorio local.
+depois va no site e apague o repositorio remoto em setings(digitando a frase pedida em danger zone).
+
